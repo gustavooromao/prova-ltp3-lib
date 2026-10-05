@@ -39,7 +39,7 @@
     </main>
 
     <footer class="text-center text-sm text-gray-500 py-4">
-        Prova Prática LTP3 - CRUD Biblioteca
+        Prova Prática LTP3 - CRUD Biblioteca - Gustavo Romão
     </footer>
 </body>
 </html>

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AutorController;
+use App\Http\Controllers\LivroController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('autores', AutorController::class)->parameters(['autores' => 'autor'])->except(['show']);
+Route::resource('livros', LivroController::class)->except(['show']);
